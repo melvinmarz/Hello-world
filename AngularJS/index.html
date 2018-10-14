@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html ng-app='app'>
-
+<html ng-app='app' lang='en'>
 <head>
     <title>Hello AngularJS</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
 </head>
+    <style type="text/css">
+        h2{
+          color: #000;  
+        }
+    </style>
 <!--add a comment example for HTML-->
 <body>
     <h1 ng-controller='HelloController'>{{hello}}<h1>
         <button ng-click="fibbo();"> CLick to generate fibbonaci series</button>
         {{fibseries}}
         <script src="app.js"></script>
+        
+        <h2>Hello World</h2>
 </body>
-
 </html>
